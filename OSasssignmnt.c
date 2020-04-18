@@ -1,18 +1,18 @@
 #include<stdio.h>
-int arrival_time1[30],arrival_time2[30],priority2[30],process2[30],arrival_time3[30];
-int burst_time1[30],burst_time2[30],burst_time3[30];
+int arrival_time1[50],arrival_time2[50],priority2[50],process2[50],arrival_time3[50];
+int burst_time1[50],burst_time2[50],burst_time3[50];
 
 int Total=0,t1=0,t2=0,t3=0;
 
-int n,i,at[30],bt[30],pr[30],j=0,k=0,l=0;
+int n,i,at[50],bt[50],pr[50],j=0,k=0,l=0;
 
-int total,x,temp[30],counter=0;
+int total,x,temp[50],counter=0;
 float avg_waiting_time1=0.0,avg_turnaround_time1=0.0;
 
-int p,waiting_time3[30],turnaround_time3[30];
+int p,waiting_time3[50],turnaround_time3[50];
 float avg_waiting_time3=0.0,avg_turnaround_time3=0.0;
 
-int position,q,temp1,sum=0,waiting_time2[30],turnaround_time2[30];
+int position,q,temp1,sum=0,waiting_time2[50],turnaround_time2[50];
 float avg_waiting_time2,avg_turnaround_time2;
 
 void round_robin()
